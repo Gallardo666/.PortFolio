@@ -1,11 +1,4 @@
-/*======================= toggle icon navbar =======================*/
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
 
-menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-};
 
 /*======================= scroll sections active link =======================*/
 let sections = document.querySelectorAll('section');
@@ -48,7 +41,8 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .portfoli
 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img', { origin:'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin:'right' });
-    
+
+
 /*======================= typed js =======================*/
 const typed =new Typed ('.multiple-text', {
     strings: ['Programador','Diseñador Grafico','YouTuber'],
