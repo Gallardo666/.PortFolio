@@ -203,7 +203,7 @@ span {
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
-    transform: translateY(100%);
+
     transition: .8s ease;
 }
 .portfolio-box:hover .portfolio-layer{
