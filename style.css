@@ -273,7 +273,6 @@ span {
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
-
     transition: .8s ease;
 }
 .portfolio-box:hover .portfolio-layer{
