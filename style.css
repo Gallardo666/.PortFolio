@@ -211,16 +211,21 @@ span {
     border-radius: 2rem;
     text-align: center;
     border:  .2rem solid var(--bg-color);
-    transition: .5s ease;
 }
-.services-container .services-box:hover {
-    border-color:  var(--main-color);
-    transform:scale(1.02);
+
+.services-box{
+    width: 5rem; /* Cambia el tamaño según tus necesidades */
+    height: 30rem; /* Cambia el tamaño según tus necesidades */
+    margin: 1rem; /* Espacio entre cuadrados */
+    max-width: calc(25% - 1rem); /* Máximo ancho permitido por línea, restando los márgenes */
 }
 
 .services-box i {
     font-size: 7rem;
     color:var(--main-color)
+}
+.services-box h2 {
+    font-size: 2.9rem;
 }
 
 .services-box h3 {
