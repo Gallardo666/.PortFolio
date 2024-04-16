@@ -214,10 +214,16 @@ span {
 }
 
 .services-box{
-    width: 5rem; /* Cambia el tamaño según tus necesidades */
-    height: 30rem; /* Cambia el tamaño según tus necesidades */
-    margin: 1rem; /* Espacio entre cuadrados */
-    max-width: calc(25% - 1rem); /* Máximo ancho permitido por línea, restando los márgenes */
+    width: 500px;
+    margin: 20px;
+    padding: 15px; /* Espacio entre el borde del contenedor y el contenido */
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #444;
+    display: flex;
+    flex-direction: column; /* El contenido se apila verticalmente */
 }
 
 .services-box i {
@@ -259,6 +265,13 @@ span {
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: #444;
+    display: flex;
+    flex-direction: column; /* El contenido se apila verticalmente */    
 }
 
 .portfolio-box img {
