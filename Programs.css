@@ -187,7 +187,8 @@ span {
 }
 
 .portfolio-box img {
-    width: 100%;
+    width: 100%; /* Ajusta el ancho a 100% del contenedor */
+    height: 66rem; /* Ajusta la altura a un tamaño fijo */
 }
 
 .portfolio-box .portfolio-layer{
