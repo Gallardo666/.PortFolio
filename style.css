@@ -153,10 +153,27 @@ span {
     font-weight: 600;
     transition: .6s ease;
 }
+.btn2 {
+    margin-left: 3.6rem; 
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .6s ease;
+}
 
 .btn:hover { 
     box-shadow: none;
 }
+.btn2:hover { 
+    box-shadow: none;
+}
+
 .about {
     display: flex;
     justify-content: center;
@@ -522,6 +539,11 @@ span {
 }
 
 @media (max-width:365px){
+    .btn, .btn2 {
+        margin-left: 0; /* Elimina el margen izquierdo */
+        margin-bottom: 1.6rem; /* Agrega un margen inferior para espacio entre botones */
+    }
+
     .home-img img{
         width: 90vw;
     }
